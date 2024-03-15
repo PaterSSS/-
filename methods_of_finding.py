@@ -116,13 +116,4 @@ def Newtons_method(function: str, low_border: float, up_border: float, epsilon: 
 
 
 if __name__ == "__main__":
-    function = "x**2 -4*x+5"
-    result = chord_methodGPT(function, -2, 6)
-    if result is not None:
-        print(result)
-    else:
-        print("No solution")
-
-# x**2 -4*x+5 парабола не пересекает х
-# 2*x +2 линия пересекает в -1
-# x**2 + 5*x-10 пересекает в
+    pass
